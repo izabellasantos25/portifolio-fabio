@@ -1,0 +1,250 @@
+
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #2F4F4F;
+    
+}
+.card-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+.card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.card img {
+    max-width: 100%;
+}
+
+
+.clear {
+    clear: both;
+  }
+  
+  .container {
+    width: 960px;
+    margin: auto;
+  }
+  
+  .confetti {
+    width: 30px;
+    height: 30px;
+    margin-top: -100px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    position: relative;
+    animation: confetti 6s;
+    -webkit-animation: confetti 6s;
+    animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+  }
+  header {
+    text-align: center;
+    background-color: #213d3d;
+    padding: 10px;
+}
+
+header img {
+    max-width: 7%; 
+    display: block; 
+    margin: 0 auto; 
+}
+  
+  @keyframes confetti {
+    0% {
+      top: 0px;
+    }
+    100% {
+      top: 1500px;
+    }
+  }
+  
+  @-webkit-keyframes confetti
+  {
+    0% {
+      top: 0px;
+    }
+    100% {
+      top: 1500px;
+    }
+  }
+  
+  .confetti1,
+  .confetti2,
+  .confetti3,
+  .confetti4 {
+    background-color: #F1A9A0;
+  }
+  
+  .confetti1 .confetti12 {
+    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+  }
+  
+  .confetti1 {
+    margin-left: 50px;
+  }
+  
+  .confetti2 {
+    margin-left: 300px;
+  }
+  
+  .confetti3,
+  .confetti6,
+  .confetti20 {
+    animation-delay: 1.5s;
+    -webkit-animation-delay: 1.5s;
+  }
+  
+  .confetti3 {
+    margin-left: 800px;
+  }
+  
+  .confetti4 {
+    margin-left: 600px;
+    animation-delay: 3s;
+    -webkit-animation-delay: 3s;
+  }
+  
+  .confetti5,
+  .confetti6,
+  .confetti7 {
+    background-color: #c0392b;
+  }
+  
+  .confetti5 {
+    margin-left: 700px;
+  }
+  
+  .confetti6 {
+    margin-left: 200px;
+  }
+  
+  .confetti7,
+  .confetti8 {
+    animation-delay: 4.5s;
+    -webkit-animation-delay: 4.5s;
+  }
+  
+  .confetti17 {
+    margin-left: 100px;
+  }
+  
+  .confetti8,
+  .confetti9,
+  .confetti10,
+  .confetti11 {
+    background-color: #5e625c;
+  }
+  
+  .confetti8 {
+    margin-left: 200px;
+  }
+  
+  .confetti9 {
+    margin-left: 900px;
+  }
+  
+  .confetti10,
+  .confetti14,
+  .confetti18 {
+    animation-delay: 2.5s;
+    -webkit-animation-delay: 2.5s;
+  }
+  
+  .confetti10 {
+    margin-left: 550px;
+  }
+  
+  .confetti11 {
+    margin-left: 350;
+    animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+  }
+  
+  .confetti12,
+  .confetti13,
+  .confetti14 {
+    background-color: #9b59b6;
+  }
+  
+  .confetti12 {
+    margin-left: 350;
+  }
+  
+  .confetti13 {
+    margin-left: 620;
+    animation-delay: 4s;
+    -webkit-animation-delay: 4s;
+  }
+  
+  .confetti14 {
+    margin-left: 570;
+  }
+  
+  .confetti15,
+  .confetti16,
+  .confetti17,
+  .confetti18 {
+    background-color: #5C97BF;
+  }
+  
+  .confetti15 {
+    margin-left: 650px;
+  }
+  
+  .confetti16 {
+    margin-left: 100px;
+    animation-delay: 4s;
+    -webkit-animation-delay: 4s;
+  }
+  
+  .confetti17,
+  .confetti21 {
+    animation-delay: .5s;
+    -webkit-animation-delay: .5s;
+  }
+  
+  .confetti17 {
+    margin-left: 250px;
+  }
+  
+  .confetti18 {
+    margin-left: 450px;
+  }
+  
+  .confetti19,
+  .confetti20,
+  .confetti21 {
+    background-color: #1abc9c;
+  }
+  
+  .confetti19 {
+    margin-left: 450px;
+  }
+  
+  .confetti20 {
+    margin-left: 850px;
+  }
+  
+  .confetti21 {
+    margin-left: 200px;
+  }
+
